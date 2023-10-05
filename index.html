@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Budget</h1>
+    <div id="top-conatiner">
+        <div id="left-budget"></div>
+        <div>Income:</div>
+        <div id="top-income"></div>
+        <div>Expense:</div>
+        <div id="top-expenses"></div>
+    </div>
+    <div id="middle">
+        <form action="#">
+            <select id="sign" style="border: 3px solid red;">
+                <option  selected value="+">+</option>
+                <option value="-">-</option>
+            </select>
+            <input type="text" id="description" placeholder="description">
+            <input type="number" id="amount" placeholder="Amount">
+            <button id="add-button">Add</button>
+        </form>
+    </div>
+    <div id="bottom" style="display: flex;"> 
+        <div id="income" style="width: 50%;">
+            <h2>Income</h2>
+            <table id="salary">
+
+            </table>
+        </div>
+        <div id="expenses">
+            <h2>Expenses</h2>
+            <table id="spent">
+
+            </table>
+           
+            
+            </div>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
